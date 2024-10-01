@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <style>
+    .header{
+       
+        
+        background-color: rgb(153, 152, 152);
+        color: white;
+        height: 150px;
+     
+        ;
+    }
+    .navbar_list{
+     list-style: none;
+     padding: 20px;
+     height: 20px;
+     background-color: grey;
+     justify-content: center
+    
+
+    }
+    .navbar_list_item{
+        display: inline-block;
+        color: aliceblue;
+        text-decoration: none;
+        gap: 10px;
+        padding left :50px;
+        padding right : 50px;
+    }
+    .footer{
+        
+       
+        color: rgb(250, 246, 249);
+        background-color: grey;
+        
+    }
+   
+    .container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  
+  
+  padding: 10px;
+}
+.container {
+  display: grid;
+  grid-template-areas:
+    'header header header header '
+    'left main right right'
+    'left main right right'
+    'footer footer footer footer';
+
+
+}
+.container1 { grid-area: header; }
+.container2{grid-area: left}
+.container3{grid-area: right;
+    
+
+}
+.container4{grid-area:main;
+          
+}
+.pink{
+    color:rgb(243, 154, 169);
+}
+
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+.chinh{margin: 5px;
+  text-align: left;}
+
+   </style>
+   
+   
+
+        </head>
+</head>
+<body>
+    <div class="app">
+        <header class="header">
+            <img src="/image/Screenshot 2024-09-22 114702.png" alt="">
+            <h1 class="chinh">YOKO'S KITCHEN</h1>
+            <h2 class="chinh">JAPANESE COOKING CLASSES</h2>
+            
+        </header>
+        <container class="container">
+            <conteainer1 class="container1">
+            <nav class="navbar">
+                <ul class="navbar_list">
+                    <li class="navbar_list_item" ><a href="#top">home</a></li>
+                    <li class="navbar_list_item"><a href="#Starters">classes</a></li>
+                    <li class="navbar_list_item"><a href="#Main Course">catering</a></li>
+                    <li class="navbar_list_item"><a href="#Dessert">about</a></li>
+                    <li class="navbar_list_item"><a href="#Dessert">contact</a></li>
+                  </ul>
+              </nav>
+            </conteainer1>
+            <container2 class="container2">
+                <img src="/image/Screenshot 2024-09-22 103306.png" alt="BoK Choi" width="300" height="180">
+                <p>Bok Choi</p>
+                
+                <br><br>
+                <img src="/image/thumb1.jpg" alt="" width="300" height="180">
+                <p>Teriyaki Sauces</p>
+           </container2>
+        <container3 class="container3">
+            <h3 class="pink">Popular Recipes</h3>
+            <h3 class="pink">Grill pork</h3>
+            <h3 class="pink">Sasimi</h3>
+            <h3 class="pink">Natto</h3>
+            <h3 class="pink">Tonkatsu</h3>
+            <br><br>
+            <h3 class="pink">Contact</h3>
+            <h3 >Yoko kitchen</h3>
+            <h3 >27 Le Thanh Tong</h3>
+            <h3 >Japan</h3>
+            <h3 >D2 SaiGon</h3>
+        </container3>
+        <container4 class="container4">
+            <h3 class="content">Japanese Vegetarian</h4>
+                <h4 class="pink">Five week course in London</h5>
+                <p class="content">A five week introduction to tradition  <br>Japanese vegetarian meals,teaching you a  <br>selection of rice and noodles dishes</p>
+                <br><br>
+                <br><br>
+                <br><br>
+                <h3 class="content">Sauces Masterclasses</h3>
+                <h4 class="pink">One day workshop</h4>
+                <p class="content">An intensive one day course looking at how <br> to creat a delicous for use in <br> a range of Japanese cookery</p>
+        </container4>
+        </container>
+        <footer class="footer">
+            <h3>YoKo's Kitchen</h2>
+        </footer>
+    </div>
+
+</body>
+</html>
