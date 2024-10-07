@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+     
+     .layout{
+        height:790px;
+        width:900px;
+     }
+     header{
+        background-color: #ab4e0e;
+        height: 78px;
+        width:900px;
+     }
+     nav{
+        height: 20px;
+        width:900px;
+        background-color: aliceblue;
+        border: 10px black;
+     }
+     
+     .menu li{
+        color: #ab4e0e;
+        display: inline-table;
+        padding-left: 50px;
+        padding-right: 50px;
+     }
+     .content{
+        height:580px;
+        width:900px;
+     }
+     section{
+      
+        height:580px;
+        width:600px;
+        float:left;
+     }
+     aside{
+        
+        height:580px;
+        width:300px;
+        float:left;
+     }
+     footer{
+       
+        width:900px;
+        background-image:url('/image/footer.png');
+        text-align: center;
+
+     }
+     section p{
+        font-style: italic;
+        color: #ab4e0e;
+        left:50px;
+     }
+     section #frm{
+        gap: 10px;
+        
+     }
+     aside p{ 
+      padding-left: 50px;
+
+     }
+     .aside1{
+      color: #ab4e0e;
+      height:280px;
+      width:250px;
+      border-radius: 10px;
+      background-color: darksalmon;
+      position: absolute;
+     }
+     .aside2{
+      color: #ab4e0e;
+      height:300px;
+      width:250px;
+      bottom:-300px;
+     position: absolute;
+     }
+     
+     input #text #email #password{
+      border-style: none;
+     }
+    </style>
+</head>
+<body>
+    <div class="layout">
+      <header>
+         <h1>AUTUMN TRAVAL COMPANY</h1>
+     
+      <nav>
+         <ul class="menu">
+           <li> <a href="#"> Home</a></li>
+           <li> <a href="#"> About</a></li>
+           <li> <a href="#"> Products</a></li>
+           <li> <a href="#"> Services</a></li>
+           <li> <a href="#"> Order</a></li>
+         </ul>
+      </nav>
+    </header>
+    <img src="/image/line.png" alt="" srcset="" width="900px" height="200px">
+      <div class="content">
+        <section>
+           
+           <h3>Sign up for membership benefit</h3>
+           <p>Our philosophical values are transparency, respect, formality <br> and responsibility. Our stimulus is your enthusiasm. Our <br> motto is your satisfaction.</p>
+           <form action="" method="post" id="frm">
+            <input type="text" name="" id="" placeholder="Username"> <br>
+            <hr><br>
+            <input type="email" name="" id="" placeholder="Email"> <br>
+            <hr><br>
+            <input type="password" name="" id="" placeholder="Password"> <br>
+            <hr ><br>
+            <input type="password" name="" id="" placeholder="Retype Password"> <br>
+            <hr> <br>
+            <button type="submit" >SIGN ME UP</button>
+           </form>
+        </section>
+        <aside>
+           <aside1 class="aside1">
+          <h3 >Link</h3>
+          <ul>
+            <li>Make your own tour</li>
+            <li>Maldives Tours</li>
+            <li>Nature and adventure</li>
+            <li>Readymade Tours</li>
+            <li>Euprope Tours</li>
+            <li>Russia Tours</li>
+          </ul>
+         </aside1>
+         <aside2 class="aside2">
+          <h3>More info</h3>
+           <img src="/image/leaf.png" alt="" srcset="" width=" 50px">
+           <p>Our purpose in the client who give to us the opportunity to serve to make know the reality around the world</p>
+         </aside2>
+         </aside>
+      </div>
+      <footer>
+         
+        <p>2017 Software Engineering Department  | Test Date : 16 Sept 2017</p>
+      </footer>
+    </div>
+</body>
+</html>

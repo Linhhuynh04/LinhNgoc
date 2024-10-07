@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <style>
+    .header{
+        font-style: italic;
+        text-align: center;
+        background-color: rgb(250, 246, 249);
+        color: rgb(235, 142, 185);
+        height: 80px;
+        ;
+    }
+    .navbar_list{
+     list-style: none;
+     padding: 20px;
+     height: 20px;
+     background-color: palevioletred;
+     justify-content: center
+    
+
+    }
+    .navbar_list_item{
+        display: inline-block;
+        color: aliceblue;
+        text-decoration: none;
+        
+    }
+    .tieude{
+        color:red;
+        text-wrap: pink;
+        text-align: center;
+        
+
+    }
+    .footer{
+        
+        font-style: italic;
+        color: rgb(250, 246, 249);
+        background-color: rgb(235, 142, 185);
+        text-align: center;
+    }
+    .header__search{
+        height: 20px;
+        color:aliceblue;
+        border-radius: 2px;
+    }
+    .container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  gap: 10px;
+  
+  padding: 10px;
+}
+.container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header '
+    'category main main right right'
+    'footer footer footer footer footer ';
+  gap: 10px;
+  padding: 10px;
+}
+.container1 { grid-area: header; }
+.container2{grid-area: main}
+.container3{grid-area: category;
+
+}
+.container4{grid-area:right;
+           height:400px;
+           width:250px;
+           border:5px;
+           
+           background-color: black;
+}
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+.Events{
+  color:white;
+}
+.RegularMeeting{
+  color:white;
+}
+.ProductLauches{
+  color:white;
+}
+h3{
+  border:10px solid pink;
+  background-color: pink
+  
+}
+
+
+   </style>
+   
+   
+
+        </head>
+</head>
+<body>
+    <div class="app">
+        <header class="header">
+           <h1>EXAMPLE CAFE MENU</h1>
+          
+        </header>
+        <container class="container">
+            <conteainer1 class="container1">
+            <nav class="navbar">
+                <ul class="navbar_list">
+                    <li class="navbar_list_item" ><a href="#top">HOME</a></li>
+                    <li class="navbar_list_item"><a href="#Starters">STARTERS</a></li>
+                    <li class="navbar_list_item"><a href="#Main Course">MAIN COURSES</a></li>
+                    <li class="navbar_list_item"><a href="#Dessert">DESSERT</a></li>
+                    <div class="header__search">
+                     <div class="inheader__search-input"></div>
+                    </div>
+                  </ul>
+              </nav>
+            </conteainer1>
+            <container2 class="container2">
+              <h1 class="tieude"> Starters</h1>
+      <li>Chestnut and Mushroom Goujon(v)</li>
+      <li>Goat Cheese Salad(v)</li>
+      <li>Honey Soy Chicken Kebabs</li>
+      <li>Seafood Salad</li>
+    <h1 class="tieude">Main courses</h1>
+      <li>Spinach and Ricotta Roulade</li>
+      <li>Beef Tornadous with Mustard and Dill Sauce</li>
+      <li>Roast Chicken Salad</li>
+      <li>Icelandic Cod with Parsley Sauce</li>
+      <li>Mushroom Wellington(v)</li>
+     <a href="#">Back to top</a>
+    <h1 class="tieude">Desserts</h1>
+       <li>Lemon Sorbet(v)</li>
+       <li>Chocolate Mud Pie(v)</li>
+       <li>Pecan Pie</li>
+       <li>Selection of Fine Cheese Around the World</li>
+    <a href="#">Back to top</a>
+    <h1 class="tieude"></h1>
+    <div>
+       
+        <form action="/action_page.php">
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="australia">Australia</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+          </select>
+        
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+           </container2>
+        <container3 class="container3">
+           <h3>Cafe Latte</h3>
+           <h3>Cappuchino</h3>
+           <h3>Americano</h3>
+           <h3>Egg-Cafe</h3>
+           <h3>Iced cafe</h3>
+
+        </container3>
+        <container4 class="container4">
+            <h1 class="Events">Events</h1>
+            <h2 class="RegularMeeting">Regular Meeting</h2>
+               <a href="image/Screenshot 2024-09-22 082027.png"></a>
+            <h2 class="ProductLauches">Product Lauches</h2>
+        </container4>
+        </container>
+        <footer class="footer">
+            <h1>ABC company -12345678-abccoffee@gmail.com</h1>
+        </footer>
+    </div>
+
+</body>
+</html>
