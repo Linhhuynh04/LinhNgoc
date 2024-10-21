@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin:0% auto;
+            padding: 0%;
+        }
+        .wrapper{
+            height:auto;
+            width:960px;
+            
+        }
+        header{
+            height:100px;
+            width:960px;
+            background-color: blue;
+        }
+        header img{
+            position: absolute;
+            top:10px;
+            left:200px;
+        }
+        header h1{
+            position: absolute;
+            top:10px;
+            left:270px;
+            color: aliceblue;
+            
+        }
+        header p{
+            position: absolute;
+            top:60px;
+            left:270px;
+            color: aliceblue;
+        }
+        header #frm{
+            position: absolute;
+            right:270px;
+            top:10px;
+        }
+        nav{
+            text-decoration: none;
+            position: absolute;
+            bottom:540px;
+            right:230px;
+        }
+        .menu li{
+            color:white;
+            padding-left: 20px;
+            padding-right: 20px;
+            display: inline-table;
+            line-height: 30px;
+            background-color: rgb(145, 145, 231);
+        }
+        section{
+            height:450px;
+            width:600px;
+            background-color: beige;
+            float:left;
+        }
+        section .container1{
+            height:300px;
+            width: 400px;
+            float: left;
+
+        }
+        section .container2{
+            height:300px;
+            width: 200px;
+            float: left;
+
+        }
+        section .h31{
+            position: absolute;
+            top:130px;
+            left:200px;
+            border-bottom: 1px dashed ;
+            
+        }
+        section .h32{
+            position: absolute;
+            top:170px;
+            border-bottom: dashed 1px;
+        }
+        section .container2 p{
+            position: absolute;
+            top:200px;
+
+        }
+        section .container1 p{
+            position: absolute;
+            top:170px;
+            left:200px;
+            color: brown;
+            text-shadow: black 1px 1px;
+            font-style: italic;
+        }
+        section #frm1{
+            padding: 5px;
+            position: absolute;
+            top:250px;
+            left:200px;
+            gap: 30px;
+        
+        }
+        aside{
+            height:450px;
+            width:360px;
+            background-color: beige;
+            float:left;
+        }
+        aside .container3{
+            position: absolute;
+            height:350px;
+            width:300px;
+            background-color: rgb(174, 184, 184);
+            right:210px;
+            top:150px;
+        }
+        footer{
+            display:flex;
+            height:60px;
+            width:960px;
+            background-color: cadetblue;
+            text-align: center;
+            
+        }
+        footer p{
+            position: absolute;
+            bottom:45px;
+            left:300px;
+            font-style: italic ;
+        }
+    </style>
+
+    
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <img src="/image/flower (1).png" alt="" srcset="" width= 50px height=70px>
+            <h1>FlowerBox 360</h1>
+            <p>...to get your daily dose to get luxury roses</p>
+            <form action="" method="post" id="frm">
+            <input type="search" name="" id="" placeholder="Search the site">
+            <button type="button">Go</button>
+        </form>
+            <nav class="menu">
+                <ul>
+                    <li> <a href="#">Home</a></li>
+                    <li><a href= "#">Promotion</a></li>
+                    <li> <a href="#">Gift Basket</a></li>
+                    <li><a href="#">Flower Service</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <section>
+            <h3 class="h31">Why not contact us today!</h3> 
+            
+            <div class="container1">
+            <p>Lorem ipsum dolor sit amet consectetur, <br> adipisicing elit.
+                 laborum eligendi animi autem <br> ipsa quibusdam, 
+                illum vero asperiores <br> aliquid ipsam obcaecati.</p>
+                <form action="" method="post" id="frm1">
+                    <label for="fname">Name:</label> 
+                    <label for="femail">Email:</label> <br>
+                    <input type="text" name="fname" id="fname">
+                    
+                    <input type="text" name="femail" id="femail"> <br>
+
+                    <label for="ftel">Telephone:</label> 
+                    <label for="fsub">Subject:</label> <br>
+                    <input type="tel" name="ftel" id="ftel">
+                    
+                    <input type="text" name="fsub" id="fsub"> <br>
+                     <label for="Fmess">Message:</label> <br>
+                     <textarea name="Fmess" id="Fmess"></textarea> <br>
+                     <button type="submit">Submit</button>
+                     <button type="reset">Reset</button>
+                </form>
+            </div>
+            <div class="container2">
+                <h3 class="h32">FlowerBox 360 Info</h3>
+                
+                <p>Operating Hours <br>Monday-Friday:9.00am-5.00pm <br>Saturday:9.00am-1.00pm <br>Sunday:Closed(No Deliveries) <br>ORDER ONLINE 24/7</p>
+            </div>
+        </section>
+        <aside >
+            <div class="container3">
+                <h3>Discount and Special</h3>
+                <hr style="border: 1px  dashed ">
+                <img src="/image/rose.png" alt="" srcset="" width="300px" height="150px">
+                <p>
+                    FlowerBox 360 offers many great discounts throughout the year, from coupons and coupon codes, to promo codes and other savings. 
+                    We also offer military flower discounts to our wonderful troops!
+                    
+                </p>
+                <a href="#">Read more</a>
+            </div>
+        </aside>
+        <footer>
+            <p>Copyright@2017-All Right Reserve - Software Engineering Department - Industrial University of Ho Chi Minh City</p>
+        </footer>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: auto 0%;
+            margin: 0%;
+        }
+        .wrapper{
+            height:auto;
+            width:960px;
+        }
+        header{
+            height:70px;
+            width:960px;
+            background-color: brown;
+
+        }
+        header h1{
+            color:darkgoldenrod;
+            text-shadow: white 6px 2px;
+            position: absolute;
+            left:5px;
+            top: 5px;
+        }
+        nav{
+            position: absolute;
+            height:40px;
+            width:960px;
+            border-radius: black 1px;
+            background-color: beige;
+        }
+        .menu li{
+            display: inline-table;
+            padding-left: 20px;
+            padding-right: 20px;
+        color: burlywood;
+        }
+        .container1{
+            height:500px;
+            width:960px;
+        }
+        section{
+            
+            
+            height:350px;
+            width:700px;
+            float: left;
+            
+        }
+        .container1 section h3{
+            position: absolute;
+            left:15px;
+            top:260px;
+            color: brown;
+        }
+        .container1 section p{
+            position: absolute;
+            left:30px;
+            top:300px;
+            font-style: italic;
+            color: brown;
+        }
+        .container1 section #frm{
+            position: absolute;
+            left:30px;
+            top:400px;
+        }
+        aside{
+            
+            height:350px;
+            width:260px;
+            float: left;
+        }
+        aside .container2{
+            height:200px;
+            width:230px;
+            background-color: rgb(224, 68, 68);
+            border-radius: 6px;
+        }
+        aside .container3
+        {
+            height:150px;
+            width:230px;
+
+        }
+        aside .container3 img{
+            position: relative;
+            bottom:-15px;
+            border-radius: 5px white;
+        }
+        aside .container3 p{
+            position: relative;
+        }
+        footer{
+            background-color: brown;
+            display: flex;
+            height:50px;
+            width:960px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <h1>AUTUMN TRAVEL COMPANY</h1>
+        </header>
+        <nav class="menu">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Product</li>
+                <li>Service</li>
+                <li>Order</li>
+            </ul>
+        </nav>
+        <div class="container1">
+            <img src="/image/fiddler.jpg" alt="" srcset="" height="auto">
+        <section>
+        <h3>Sign up for membership benefit</h3>
+        <p>Lorem ipsum dolor sit amet consectetur <br>
+            adipisicing elit. Dolorum ea eum consectetur 
+            voluptate,<br> quam excepturi, dicta nisi sapiente autem sunt 
+             </p>
+             <form action="" method="post" id="frm">
+                <input type="text" name="" id="" placeholder="Username"> <br> <br>
+                <input type="email" name="" id="" placeholder="Email"> <br> <br>
+                <input type="password" name="" id="" placeholder="Password"> <br> <br>
+                <input type="password" name="" id="" placeholder="Rewrite password"> <br> <br>
+                <button type="button">Sign me up</button>
+
+             </form>
+        </section>
+        <aside>
+            <div class="container2">
+                <h2>Links</h2>
+                <ul>
+                    <li>Food</li>
+                    <li>Beach</li>
+                    <li>Place</li>
+                    <li>Visit</li>
+                    <li>Chill</li>
+                </ul>
+            </div>
+            <div class="container3">
+                <h2>More info</h2> 
+                <img src="/image/leaf.png" alt="" srcset="" width="60px" >
+                <p>Lorem ipsum doborum. Tempore accusamus nulla molestiae ad dolorem monsequ
+                    atur ipsum nam atque , molestias accusantium?</p>
+            </div>
+        </aside>
+    </div>
+        <footer>
+            <p>SoftWare Engineer</p>
+        </footer>
+    </div>
+</body>
+</html>

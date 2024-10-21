@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding:0px auto;
+            margin: 0%;
+        }
+        .wrapper{
+            height:auto;
+            width:960px;
+        }
+        header{
+            height:70px;
+            width:960px;
+            background-color: rgb(56, 84, 248);
+        }
+        header .menu{
+            text-decoration: none;
+            position: absolute;
+            top: 30px;
+        }
+        header .menu li{
+            display: inline-table;
+            padding-left: 20px;
+            padding-right: 20px;
+            color: aliceblue;
+            font-style: initial;
+        } 
+        header .menu .li:hover{
+              background-color: blue;
+        }
+        header  h1{
+            color:aliceblue;
+            text-shadow: blue 1px 3px;
+            position: absolute;
+            right:400px;
+            top:10px;
+        }
+        section{
+            height:500px;
+            width:480px;
+            background-color: rgb(56, 84, 248);;
+            float:left;
+        }
+        section h2{
+            position: absolute;
+            color:aliceblue;
+            top:100px;
+            left:20px;
+        }
+        section p{
+            position: absolute;
+            color:aliceblue;
+            top:150px;
+            left:20px;
+        }
+        
+        section #frm{
+            position: absolute;
+            left: 30px;
+            top:230px;
+            color: aliceblue;
+            padding: 5px;
+        }
+        input {
+            position: absolute;
+            left:200px;
+           padding: 2px;
+             
+        }
+        textarea{
+            position: absolute;
+            left:200px;
+           padding: 2px;
+        }
+        select{
+            position: absolute;
+            left:200px;
+           padding: 2px;
+        }
+        
+        
+        aside{
+            height:500px;
+            width:480px;
+            background-color: rgb(56, 84, 248);;
+            float:left;
+            
+        }
+        aside img{
+            position: absolute;
+            right:400px;
+            top:100px;
+        }
+        aside h1{
+            position: absolute;
+            right:600px;
+            bottom:230px;
+            color: blue;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-shadow: 1px 2px blue;
+        }
+        aside h3{
+            position: absolute;
+            right:500px;
+            bottom:200px;
+            color: blue;
+        }
+        footer{
+            display:flex;
+            height:90px;
+            width:960px;
+            background-color: rgb(56, 84, 248);;
+            text-align: center;
+        }
+        footer h3{
+            position: absolute;
+            bottom:10px;
+          left: 280px;
+          color: aliceblue;
+        }
+        footer p{
+            position: absolute;
+            bottom:-7px;
+          left: 220px;
+          color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <nav class="menu">
+                <ul>
+                    <li> <a href="#">Home</a></li>
+                    <li><a href="#">Product</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <h1>Sky World</h1>
+           
+        </header>
+        <section>
+            <hr  style="border: wheat dashed" align="center">
+            <h2>Registrator information</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+                laborum earum, at exercitationem laudantium numquam voluptatem <br>
+                 temporiut. Temporibus architecto facere voluptatibus cum.</p>
+                 <form action="" method="post" id="frm">
+                    <label for="ftiltle">Tilte</label>
+                    <select name="ftiltle" id="ftiltle">
+                        <option value="">Mr</option>
+                        <option value="">Ms</option>
+                    </select> <br> <br>
+                    <label for="fname">Full Name:</label> 
+                     <input type="text" name="fname" id="fname" placeholder="First Name"> <br> <br>
+                     <label for="email">Mailling Address</label>
+                     <input type="email" name="email" id="email" placeholder="Mailling Address"><br> <br>
+                     <label for="fcity">City</label>
+                     <input type="text" name="fcity" id="fcity" placeholder="City"> <br> <br>
+                     <label for="fcountry">Country</label>
+                     <input type="text" name="fcountry" id="fcountry" placeholder="Country"> <br> <br>
+                     <label for="fmess">Specific question or <br> request about your tour</label>
+                     <textarea name="fmess" id="fmess" placeholder="Specific question or <br> request about your tour" width="50"></textarea> <br> <br>
+                     <button type="submit">Submit</button>
+                     <button type="reset">Reset</button>
+
+                 </form>
+        </section>
+        <aside>
+            <hr  style="border: wheat dashed" align="center">
+            <img src="/image/sky.png" alt="" srcset="" width="400">
+            <h1>You've arrived.</h1> 
+            <h3>Journeys as great as the destinations</h3>
+
+        </aside>
+        <hr  style="border: wheat dashed" >
+        <footer>
+            
+            <h3>Cao26Sky World Tour.All rights reserve.</h3>
+            <p>Contact infomation:Huynh Ngoc Linh | Student ID:22685011 | Testing ID:16 Sept 2024</p>
+        </footer>
+    </div>
+</body>
+</html>

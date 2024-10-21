@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    *{
+      padding: 0%;
+      margin: 0% auto;
+    }
+    .wrapper{
+      height:auto;
+      width:960px;
+    }
+    header{
+      height:50px;
+      width:960px;
+      background-color: aliceblue;
+    }
+    header h1{
+      color:darksalmon;
+      font-style: italic;
+      text-align: center;
+      text-shadow: darksalmon 1px 2px;
+    }
+    .menu{
+      
+      height:40px;
+      width:960px;
+      text-decoration: none;
+      background-color: darksalmon;
+    }
+    .menu li{
+      color: aliceblue;
+      display:inline-table;
+      margin: 10px;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    nav #frm{
+      position: absolute;
+      top:60px;
+      right:280px;
+    }
+    aside{
+      height:700px;
+      width:200px;
+      float:left;
+      background-color: aliceblue;
+    }
+    
+  
+    aside .item {
+
+
+      color:aliceblue;
+      background-color: darksalmon;
+     border-radius: 10px;
+      line-height: 30px;
+      margin-top: 5%;
+
+    }
+    section{
+      background-color: aliceblue;
+      height:700px;
+      width:500px;
+      float:left
+      
+    }
+    section h1{
+      text-align: center;
+      margin: 20px;
+      background-color: darksalmon;
+      line-height: 40px;
+    }
+    section ul{
+      padding-left: 50px;
+    }
+    section a{
+      padding-left: 20px;
+    }
+    .aside1 .container{
+      width: 260px;
+      height:500px;
+      background-color: black;
+      position: relative;
+      top:30px;
+    }
+    .aside1{
+      height:700px;
+      width:260px;
+      float:left;
+    }
+    .aside1 .aside1p{
+      color:white
+    }
+    .aside1 .container.img{
+      position: relative;
+      left:10px;
+    }
+    footer{
+      display: flex;
+      height:70px;
+      width:960px;
+      background-color: darksalmon;
+    }
+    footer .footerh2{
+      text-align: center;
+      margin-top: 5px;
+      color: blanchedalmond;
+      font-style: italic;
+    }
+     section #frm1 input{
+      padding:10px;
+      margin:10px;
+      width: 150px;
+    }
+    option{
+      width: 150px;
+      padding: 10px;
+      margin: 10px;
+    }
+    input #nation{
+      padding: 0%;
+      margin: 0%;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <header>
+      <h1>EXAMPLE CAFE MENU</h1>
+    </header>
+    <nav class="menu">
+      <ul>
+        <li>STARTERS</li>
+        <li>MAIN COURSES</li>
+        <li>DESSERT</li>
+      </ul>
+      <form action="" method="post" id="frm">
+        <input type="search" name="" id="" >
+        <button type="button">Go</button>
+      </form>
+    </nav>
+    <aside>
+      <p class="item">Coffee</p> <br>
+        <p class="item">Tea</p> <br>
+        <p class="item">Foods</p> <br>
+        <p class="item">Dessert</p> <br>
+        <p class="item">Take away</p>
+    
+    </aside>
+    <section>
+      <h1>Starter</h1>
+      <ul>
+        <li>Chesee and chicken</li>
+        <li>Pork Soup</li>
+        <li>Salad beef</li>
+        <li>Pho Viet Nam</li>
+      </ul>
+      <a href="#">Back to top</a> <br>
+      <h1>Desserts</h1>
+      <ul>
+        <li>Che Buoi</li>
+        <li>Cheese cake</li>
+        <li>Panna Cotta</li>
+        <li>Mousse</li>
+      </ul>
+      <a href="#">Back to top</a> <br>
+      <h1>INFOMATION</h1>
+      <form action="" method="post" id="frm1">
+        <input type="text" name="" id="" placeholder="Fisrt Name">
+        <input type="text" name="" id="" placeholder="Last Name"> <br>
+        <input type="email" name="" id="" placeholder="Email">
+        <input type="tel" name="" id="" placeholder="Telephone"> <br>
+        <select name="" id="">
+          <option value="">USA</option>
+          <option value="">VIETNAM</option>
+        </select>
+        <input type="radio" name="nation" id="nation" value="vietnamese">
+        <label for="nation">Vietnamese</label>
+        <input type="radio" name="nation" id="nation" value="forgeiner">
+         <label for="nation">Foreigner</label> <br>
+         <textarea name="object" id="object" style="width: 400px; height: 50px;">object</textarea> <br>
+         <button type="button">Enter</button>
+         <button type="button">Cancel</button>
+      </form>
+    </section>
+    
+    <aside class="aside1">
+      <div class="container">
+         <h2 style="color: white;">Events</h2>
+         <h4 style="color: white;">Regular Meeting</h4>
+         <img src="/image/thumb3.jpg" alt="" srcset="" width="220px;">
+         <p class="aside1p">ur ut earum voluptates ex quae facere <br> quidem illo, voluptas numquam.</p>
+         <a href="#">Read more</a>
+         <br>
+         <h4 style="color: white;">Regular Meeting</h4>
+         <img src="/image/thumb4.jpg" alt="" srcset="" width="220px;">
+         <p class="aside1p">ur ut earum voluptates ex quae facere <br> quidem illo, voluptas numquam.</p>
+         <a href="#">Read more</a>
+      </div>
+    </aside>
+    <footer>
+      <h2 class="footerh2">ABC Company-12345678-abccoffee2gmail.com</h2>
+    </footer>
+  </div>
+</body>
+</html>
